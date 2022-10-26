@@ -1,0 +1,25 @@
+a:link { 
+transition: all .5s linear 0;
+color: hsl(36,50%,50%); 
+} 
+a:hover { 
+color: hsl(36,100%,50%); 
+}
+#nav { display: none; }
+.newpage { 
+page-break-before: always; 
+}
+#sidebar a:after { 
+content: " (" attr(href) ") "; 
+}
+
+media screen and (max-width: 900px) { 
+body { 
+background-color: black; 
+}
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
